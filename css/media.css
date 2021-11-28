@@ -1,0 +1,92 @@
+@media(min-width:768px) and (max-width:1023px){}
+@media(min-width:768px) and (max-width:1023px){}
+@media(min-width:768px) and (max-width:1023px){}
+@media(min-width:0px) and (max-width:767px){
+    .navbar-light .navbar-nav .nav-link {}
+    .check-btn{
+        display: block;
+    }
+    .nav-link{
+        font-size: 16px;
+    }
+    .navbar-nav{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        transition: all ease-in-out .4s;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #323232;
+    }
+    .nav-item{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .nav-item a{
+        font-size: 20px;
+    }
+    .nav-item a:hover , .nav-item a:active{
+        background: red;
+        color: pink;
+    }
+    .check-btn i{
+        color: white;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .my-img img {
+        box-shadow: 0px 0px 14px 6px #322c2c5c;
+        width: 84%;
+    }
+    .skill {
+        padding: 2px;
+    }
+    .icon {
+        text-align: center;
+    }  
+    .footer p {
+        display: flex;
+        justify-content: center;
+        font-size: 19px;
+    }
+    .foot-i{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(min-width:0px) and (max-width:575px){
+    .content {
+        margin: 10px 20px 10px 20px;
+    }
+}
+@media(min-width:0px) and (max-width:425px){
+    .heading h2 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .heading h1 {
+        margin-top: 40px;
+        font-size: 25px;
+    }
+    .navbar-brand p {
+        font-size: 17px;
+    }
+}
+@media(min-width:0px) and (max-width:320px){
+    .heading h1 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .heading h2 {
+        margin: 10px;
+        font-size: 27px;
+    }
+    .btn-hire, .btn-conect {
+        margin-top: 22px;
+        padding: 12px 45px;
+    }
+}
+@media(min-width:768px) and (max-width:1023px){}
